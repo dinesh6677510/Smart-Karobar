@@ -1,0 +1,29 @@
+<ion-header >
+    <div class="loginclass">
+      
+        <h1 >Smart Karobar</h1>
+        <img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1024px-User_icon_2.svg.png" alt=""  >
+        <h2>Register</h2>
+    </div>
+    </ion-header>
+    <ion-content padding>
+    
+
+    
+        <form #form="ngForm" (ngSubmit)="login(form)" method="post">
+          <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input ngModel type="email" name="email"></ion-input>
+          </ion-item>
+        
+          <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input ngModel type="password" name="password"></ion-input>
+          </ion-item>
+        
+          
+        
+          
+        
+        <ion-button  expand="full "text-center color="danger" (click)="registerModal()">Register </ion-button>
+      </ion-content>

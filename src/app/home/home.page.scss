@@ -1,0 +1,43 @@
+.loginclass{
+//  background: var(--theme-color);
+background-color: red;
+
+ width:100%;
+ text-align: center;
+ position: relative;
+ border-radius: 0%;
+
+ 
+  
+}
+.logo-img{
+  display: block;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  float: left;
+  
+  
+
+}
+.smartHeader{
+  display: flex-root;
+  height: auto;
+  float: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+  //background-color: aqua;
+  // height: 50px;
+  width: auto;
+
+  // padding-top: 15px;
+  // background: var(--theme-white);
+  
+}
+h2{
+  background:white;
+}
+ion-header{
+  background: red;
+}
